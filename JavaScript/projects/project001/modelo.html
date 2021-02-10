@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Números</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    
+    <header>
+        <h1>Verificador de Números</h1>
+    </header>
+
+    <section>
+        <div class="content">
+
+            <div id="campo">
+                <p>Número (1, 100): <input type="number" name="num" id="num" placeholder="Digite um número"> <button id="btnInserir" onclick="inserir()">Inserir</button> </p>
+            </div>
+
+            <div id="intervalo">
+                <select name="intervalo" id="slctIntervalo" size="10">
+                    <option value="opt1">Seu intervalo aparecerá aqui</option>
+                </select>
+            </div>
+
+            <div>
+                <button id="btnAnalisar" onclick="analisar()">Analisar</button>
+            </div>
+
+            <div id="res">
+
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;2021 Verificador de Números</p>
+    </footer>
+
+    <script src="ambient.js"></script>
+
+</body>
+</html>
