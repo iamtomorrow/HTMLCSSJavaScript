@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="http://fonts.cdnfonts.com/css/quango" rel="stylesheet">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: #0070C0;
+            font-family: 'Quango', sans-serif;
+        }
+        p {
+            color: rgb(255, 255, 255);
+        }
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Olá, Mundo!
+    </h1> <!--comentários-->
+    <p>Já me livrei da maldição!</p>
+
+    <script>
+        var n1 = Number(window.prompt('Primeiro número: '))
+        var n2 = Number(window.prompt('Segundo número: '))
+        var soma = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} vale ${soma}`)    // concatenação
+        // number + number: para adição
+        // string + string: para concatenar
+    </script>
+
+</body>
+</html>
