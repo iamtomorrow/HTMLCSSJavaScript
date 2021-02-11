@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to right, #E44D26, #F16529);
+    font-family: 'Farsan', cursive;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+section {
+    background: white;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 5px 40px black;
+}
+
+.image {
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
