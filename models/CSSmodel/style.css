@@ -1,0 +1,37 @@
+body {
+    background: linear-gradient(to right, #1A62B1, #399DD8);
+    font-family: 'Arya', sans-serif;
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+section {
+    background: white;
+    color: black;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 3px 10px 50px black;
+}
+
+.image {
+    text-align: center;
+}
+
+section h1 {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 30px;
+}
