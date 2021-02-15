@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+#sun {
+    animation: sun_animation 2s infinite;
+    transform-origin: center;
+}
+
+#meteroids {
+    animation: meteroids_animation 3s infinite linear;
+    transform-origin: center;
+}
+
+#planet1 {
+    animation: planet1_animation 6s infinite linear;
+    transform-origin: center;
+}
+
+#planet2, #planet3 {
+    animation: planet2planet3_animation 9s infinite linear;
+    transform-origin: center;
+}
+
+/* The orbit 1 will receive the same orbit of its planet*/
+#orbit1 {
+    animation: planet1_animation 6s infinite linear;
+    transform-origin: center;
+}
+
+/* The orbits 2A and 2B will receive the same values of their planets;*/
+#orbit2A, #orbit2B {
+    animation: planet2planet3_animation 9s infinite linear;
+    transform-origin: center;
+}
+
+/* Animation of the Sun*/ 
+@keyframes sun_animation {
+    0% {
+        transform: scale(0.7);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Animation of the meteroids:*/
+@keyframes meteroids_animation {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Animation of the 1st planet;*/
+@keyframes planet1_animation {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+/* Animation of the 2nd and 3rd planet;*/
+@keyframes planet2planet3_animation {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {    
+        transform: rotateZ(360deg);
+    }
+}
